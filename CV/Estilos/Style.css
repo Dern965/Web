@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/* -------- Estilos Globales --------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-family: "Source Code Pro", monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #2d2e32;
+}
+
+h1{
+    padding: 2%;
+    font-weight: 600;
+    color: #fefefe;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #cacaca;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+li{
+    list-style: circle;
+    position: relative;
+}
+/*-------- Contenido --------*/
+.principal{
+    border: solid 3px;
+    margin: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: #403F4A;
+}
+
+.principal p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fefefe;
+    margin: 15px 0 20px 0;
+}
+
+.principal a{
+    color: #fefefe;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.foto{
+    width: 150px;
+    margin-right: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.columna{
+    padding-left: 10px;
+}
+
+.columna h4{
+    color: #cacaca;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 40px 0 5px;
+}
+
