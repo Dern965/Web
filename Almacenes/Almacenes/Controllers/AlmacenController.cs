@@ -59,7 +59,7 @@ namespace Almacenes.Controllers
             }
             return new JsonResult(comprobacion);
         }
-        [HttpPatch]
+        /*[HttpPatch]
         public JsonResult DeleteAlmacen([FromBody] Almacen almacen)
         {
             bool comprobacion = false;
@@ -76,6 +76,6 @@ namespace Almacenes.Controllers
                 }
             }
             return new JsonResult(comprobacion);
-        }
+        }*/
     }
 }

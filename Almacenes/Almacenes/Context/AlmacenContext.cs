@@ -14,7 +14,7 @@ namespace Almacenes.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
-            builder.UseMySQL("server=localhost; database=Almacen; user=root; password=admin");
+            builder.UseMySQL("server=localhost; port=3306;database=Almacen; user=root; password=admin");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
