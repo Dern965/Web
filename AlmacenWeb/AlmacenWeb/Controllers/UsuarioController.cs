@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AlmacenWeb.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("Userss")]
     [ApiController]
     public class UsuarioController : ControllerBase
     {

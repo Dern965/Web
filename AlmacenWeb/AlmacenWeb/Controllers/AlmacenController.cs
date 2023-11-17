@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AlmacenWeb.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("Almaceness")]
     [ApiController]
     public class AlmacenController : ControllerBase
     {

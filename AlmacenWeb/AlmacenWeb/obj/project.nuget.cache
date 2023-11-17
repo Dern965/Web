@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H+BA1ODYdDWtWlT3z1wB1Q/GoN5OB77CgVt3t5KAfuERAn1Qr3xKBASrvRiIzhVFstWjsMYkC8EUbnVwtV7iDw==",
+  "dgSpecHash": "T3gwlfRO/MxTg8grT/qbEehxhcyPwOLfQ4eXX0SokFgOEkB5YvjbbPwTfa/NKJWOxT7O00cxD8Bj07oBDs6Z9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dern9\\OneDrive\\Escritorio\\Web\\AlmacenWeb\\AlmacenWeb\\AlmacenWeb.csproj",
+  "projectFilePath": "C:\\Users\\dern9\\Desktop\\Web\\AlmacenWeb\\AlmacenWeb\\AlmacenWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dern9\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\dern9\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
