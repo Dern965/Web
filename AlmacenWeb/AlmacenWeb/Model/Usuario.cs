@@ -2,9 +2,9 @@
 {
     public class Usuario
     {
-        public string NombreUsuario { get; set; }
-        public string Contraseña { get; set; }
-        public string Nombre {  get; set; }
-        public int Nivel { get; set; }
+        public string NombreU { get; set; }
+        public string Contrasena { get; set; }
+        public string Nombre { get; set; }
+        public int Acceso { get; set; }
     }
 }

@@ -1,22 +1,33 @@
 ﻿using AlmacenWeb.Model;
 using Microsoft.EntityFrameworkCore;
+using MySql.EntityFrameworkCore;
 
 namespace AlmacenWeb.Context
 {
     public class AlmacenContext : DbContext
     {
-        public DbSet<Almacen> almacens { get; set; }
-        public DbSet<Producto> products { get; set; }
-        public DbSet<Inventario> inventaries { get; set; }
-        public DbSet<Usuario> users { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Almacen> Almacen { get; set; }
+        public DbSet<Producto> Producto { get; set; }
+        public DbSet<Inventario> Inventario { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder builder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            builder.UseMySQL("server=localhost; database=almacenes;user=root; password=admin");
+            optionsBuilder.UseMySQL("server=localhost;database=almacenes;user=root;password=admin");
         }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Usuario>(e =>
+            {
+                e.HasKey(u => u.NombreU);
+                e.Property(u => u.Contrasena);
+                e.Property(u => u.Nombre);
+                e.Property(u => u.Acceso);
+            });
+
             modelBuilder.Entity<Almacen>(entiy =>
             {
                 entiy.HasKey(a => a.Numero);
@@ -37,13 +48,6 @@ namespace AlmacenWeb.Context
                 entity.Property(i => i.Producto);
                 entity.Property(i => i.Cantidad);
                 entity.Property(i => i.DUE);
-            });
-
-            modelBuilder.Entity<Usuario>(entity => {
-                entity.HasKey(u => u.NombreUsuario);
-                entity.Property(u => u.Contraseña);
-                entity.Property(u => u.Nombre);
-                entity.Property(u => u.Nivel);
             });
         }
     }

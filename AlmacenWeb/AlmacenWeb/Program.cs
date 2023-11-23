@@ -2,7 +2,8 @@ using AlmacenWeb.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
-AlmacenContext a_context = new AlmacenContext();
+AlmacenContext alm_c = new AlmacenContext();
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -19,7 +20,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-a_context.Database.EnsureCreated();
+alm_c.Database.EnsureCreated();
 
 app.UseHttpsRedirection();
 

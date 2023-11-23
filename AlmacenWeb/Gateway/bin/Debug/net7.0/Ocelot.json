@@ -1,0 +1,79 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/ModelAlmacen",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7105
+        }
+      ],
+      "UpstreamPathTemplate": "/ModelAlmacen",
+      "UpstreamHttpMethod": []
+    },
+    {
+      "DownstreamPathTemplate": "/ModelUsuarios",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7105
+        }
+      ],
+      "UpstreamPathTemplate": "/ModelUsuarios",
+      "UpstreamHttpMethod": []
+    },
+    {
+      "DownstreamPathTemplate": "/ModelProducto",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7105
+        }
+      ],
+      "UpstreamPathTemplate": "/ModelProducto",
+      "UpstreamHttpMethod": []
+    },
+    {
+      "DownstreamPathTemplate": "/ModelInventario",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7105
+        }
+      ],
+      "UpstreamPathTemplate": "/ModelInventario",
+      "UpstreamHttpMethod": []
+    },
+    {
+      "DownstreamPathTemplate": "/DTOUsuario",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7105
+        }
+      ],
+      "UpstreamPathTemplate": "/DTOUsuario",
+      "UpstreamHttpMethod": []
+    },
+    {
+      "DownstreamPathTemplate": "/DTOAlmacen",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7105
+        }
+      ],
+      "UpstreamPathTemplate": "/DTOAlmacen",
+      "UpstreamHttpMethod": []
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseURL": "http://localhost:7254"
+  }
+}

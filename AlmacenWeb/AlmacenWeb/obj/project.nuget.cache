@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H+BA1ODYdDWtWlT3z1wB1Q/GoN5OB77CgVt3t5KAfuERAn1Qr3xKBASrvRiIzhVFstWjsMYkC8EUbnVwtV7iDw==",
+  "dgSpecHash": "SD6NgwClOXP+zzMZWHeVrEPtcmXsoYGORkX5JlKgDLUOfNi2NxP2uISAjP93FsJWFgBPEB13VAkml8dnBDfJGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dern9\\OneDrive\\Escritorio\\Web\\AlmacenWeb\\AlmacenWeb\\AlmacenWeb.csproj",
+  "projectFilePath": "C:\\Users\\dern9\\Desktop\\Web\\AlmacenWeb\\AlmacenWeb\\AlmacenWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dern9\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\dern9\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\dern9\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
     "C:\\Users\\dern9\\.nuget\\packages\\k4os.compression.lz4.streams\\1.3.5\\k4os.compression.lz4.streams.1.3.5.nupkg.sha512",
     "C:\\Users\\dern9\\.nuget\\packages\\k4os.hash.xxhash\\1.0.8\\k4os.hash.xxhash.1.0.8.nupkg.sha512",
+    "C:\\Users\\dern9\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "C:\\Users\\dern9\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.24\\microsoft.entityframeworkcore.6.0.24.nupkg.sha512",
     "C:\\Users\\dern9\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.24\\microsoft.entityframeworkcore.abstractions.6.0.24.nupkg.sha512",
     "C:\\Users\\dern9\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.24\\microsoft.entityframeworkcore.analyzers.6.0.24.nupkg.sha512",
@@ -27,7 +28,7 @@
     "C:\\Users\\dern9\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\dern9\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\dern9\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\dern9\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\dern9\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\dern9\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\dern9\\.nuget\\packages\\mysql.data\\8.2.0\\mysql.data.8.2.0.nupkg.sha512",
     "C:\\Users\\dern9\\.nuget\\packages\\mysql.entityframeworkcore\\6.0.21\\mysql.entityframeworkcore.6.0.21.nupkg.sha512",
