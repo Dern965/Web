@@ -34,7 +34,7 @@
         }
       ],
       "UpstreamPathTemplate": "/ModelProducto",
-      "UpstreamHttpMethod": []
+      "UpstreamHttpMethod": ["GET"]
     },
     {
       "DownstreamPathTemplate": "/ModelInventario",

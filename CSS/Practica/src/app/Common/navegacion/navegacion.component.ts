@@ -10,7 +10,9 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 })
 export class NavegacionComponent {
   menus = [
-    {titulo: "Inicio", url: "/"},
+    {titulo: "Inicio", url: "/inicio"},
     {titulo: "Conocenos", url: "/conocenos"},
+    {titulo: "Ubicanos", url: "/ubicanos"},
+    {titulo: "Productos", url: "/productos"}
   ];
 }
